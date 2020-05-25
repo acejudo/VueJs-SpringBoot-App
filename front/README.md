@@ -1,4 +1,4 @@
-# myapp
+# frontapp
 
 > A Vue.js project
 
