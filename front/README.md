@@ -26,8 +26,11 @@ npm test
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-# Vue docker
+# Vue docker build
 docker build -t appvue:1.0 .
 
+# Vue run
+docker run -it -p 8080:80 --rm --name appvue appvue:1.0
+
 # Vue app run background
-docker run -d --name appvue --publish 8080:8080 appvue:1.0
+docker run -d --name appvue --publish 8080:80 appvue:1.0

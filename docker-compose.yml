@@ -8,6 +8,6 @@ services:
   website:
     build: ./front
     ports:
-      - 8080:8080
+      - 8080:80
     depends_on:
       - api-service

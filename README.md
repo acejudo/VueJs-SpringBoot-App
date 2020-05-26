@@ -6,3 +6,6 @@ docker-compose up -d
 
 # Stop docker compose
 docker-compose stop
+
+# Force recreate build
+docker-compose up --force-recreate --build -d
